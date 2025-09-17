@@ -29,12 +29,12 @@ export default defineConfig({
   "theme_color": "#4CAF50",
   "icons": [
     {
-      "src": "/icons/pwa-192.png",
+      "src": "pwa.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/pwa-192.png",
+      "src": "pwa.png",
       "sizes": "512x512",
       "type": "image/png"
     }
