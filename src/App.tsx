@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+    <div className='header'>MENU</div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={appLogo} className="logo" alt="my-pwa-app logo" />
