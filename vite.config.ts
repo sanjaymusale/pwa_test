@@ -13,11 +13,32 @@ export default defineConfig({
       config: true,
     },
 
+    // manifest: {
+    //   name: 'my-pwa-app',
+    //   short_name: 'my-pwa-app',
+    //   description: 'my-pwa-app',
+    //   theme_color: '#ffffff',
+    // },
     manifest: {
-      name: 'my-pwa-app',
-      short_name: 'my-pwa-app',
-      description: 'my-pwa-app',
-      theme_color: '#ffffff',
+      "name": "my-pwa-app",
+  "short_name": "my-pwa-app",
+   description: 'my-pwa-app',
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
     },
 
     workbox: {
