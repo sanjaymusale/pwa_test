@@ -21,24 +21,25 @@ export default defineConfig({
     // },
     manifest: {
       "name": "my-pwa-app",
-  "short_name": "my-pwa-app",
-   description: 'my-pwa-app',
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
-  "icons": [
-    {
-      "src": "pwa.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "pwa.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+      "short_name": "my-pwa-app",
+      description: 'my-pwa-app',
+      "start_url": "/",
+      "scope": "/",
+      "display": "standalone",
+      "background_color": "#ffffff",
+      "theme_color": "#4CAF50",
+      "icons": [
+          {
+            "src": "pwa.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "pwa.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
     },
 
     workbox: {
