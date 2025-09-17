@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.yge.pwa",
+      "package_name": "app.netlify.yge_pwa.twa",
       "sha256_cert_fingerprints": [
         "B5:10:3F:E3:04:1E:C8:46:54:E4:3C:CD:30:86:F6:C5:18:99:90:00:A0:A2:17:A8:F3:70:3B:F5:18:C8:5D:0E"
       ]
